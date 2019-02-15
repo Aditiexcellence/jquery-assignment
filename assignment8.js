@@ -15,7 +15,7 @@ $(document).ready(function () {
             $('#table').append(row);
         },
     });
-    location: 'assignment8.html';
+    location: 'assignment9.html';
     setTimeout(function () {
         location.reload();
     }, 5000);
