@@ -4,17 +4,17 @@ $(document).ready(function () {
         url: 'assignment8.json',
         dataType: 'json',
         success: function (data) {
-            var row = '<tr>'
+            var row ="";
             for ($i = 0; $i < 5; $i++) {
-                row += '<td>' + data[$i].name + '</td>';
+                row += '<tr><td>' + data[$i].name + '</td>';
                 row += '<td>' + data[$i].email + '</td>';
                 row += '<td>' + data[$i].message + '</td>';
-                row += '<td>' + data[$i].date + '</td>';
-                row += '</tr>';
+                row += '<td>' + data[$i].date + '</td></tr>';
             }
-            $('#table').append(row);
+            $('#tables').html(row);
         },
     });
+    $('.dataTables_length').addClass('bs-select');
     location: 'assignment8.html';
     setTimeout(function () {
         location.reload();
