@@ -208,11 +208,5 @@
         "email": "jon@gmail.com",
         "message": "Hello",
         "date": "1 feb 2019"
-    },
-    {
-        "name": "Ankit",
-        "email": "ankit@gmail.com",
-        "message": "Hello",
-        "date": "5 feb 2019"
     }
 ]
